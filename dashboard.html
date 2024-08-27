@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate QR Code</title>
+    <link rel="stylesheet" href="login-style.css">
+    <script src="jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.qrcode.min.js"></script>
+</head>
+<body>
+<section>
+    <div class="userdata-container" id="container">
+        <h1>Click to Generate QR code</h1>
+        <div class="size-box">
+            <a for="Size">Image Size</a>
+                <select name="size" id="Size">Size
+                <option value="100x100">100 x 100</option>
+                <option value="200x200">200 x 200</option>
+                <option value="300x300">300 x 300</option>
+        </div>
+    </select>
+    <br>
+        <button id="showdata" style="width: 100px;">Click</button>
+    </div>
+    <div class="content-box" id="data" style="border: 1px solid #000;text-align: start;">
+        
+    </div>
+    <div class="qr-code" id="box" style="padding: 10px;">
+
+    </div>
+    <a href="https://abdulsamad2522.github.io/abdulsamad-profile/" class="image"><img src="browser.png" alt=""></a>
+
+</section>
+    <script src="java.js"></script>
+</body>
+</html>
